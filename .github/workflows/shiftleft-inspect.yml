@@ -4,13 +4,6 @@ name: Analyze with ShiftLeft Inspect
 
 on:
   push:
-    branches:
-      - master
-      - feature/*
-      - fix/*
-  pull_request:
-    branches:
-      - master
 
 jobs:
   Inspect-Build:
